@@ -1,5 +1,8 @@
 {
   "extends": "@tsconfig/svelte/tsconfig.json",
+  "compilerOptions": {
+    "types": ["chrome", "svelte"]
+  },
   "include": ["src/**/*"],
   "exclude": ["node_modules/*", "dist/*"]
 }

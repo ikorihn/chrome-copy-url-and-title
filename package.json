@@ -1,25 +1,24 @@
 {
   "private": true,
-  "name": "svelte-tailwind-extension-boilerplate",
+  "name": "chrome-copy-url-and-title",
   "version": "0.0.1",
-  "description": "A browser extension template built with Svelte and TailwindCSS",
+  "description": "Copy url and title for markdown",
   "keywords": [
     "chrome-extension",
     "web-extension",
     "javascript",
     "svelte",
-    "rollup",
-    "boilerplate"
+    "rollup"
   ],
-  "homepage": "https://github.com/kyrelldixon/svelte-tailwind-extension-boilerplate#readme",
+  "homepage": "https://github.com/ikorihn/chrome-copy-url-and-title",
   "bugs": {
-    "url": "https://github.com/kyrelldixon/svelte-tailwind-extension-boilerplate/issues"
+    "url": "https://github.com/ikorihn/chrome-copy-url-and-title/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kyrelldixon/svelte-tailwind-extension-boilerplate.git"
+    "url": "git+https://github.com/ikorihn/chrome-copy-url-and-title.git"
   },
-  "author": "Kyrell Dixon <kyrell@kyrelldixon.com>",
+  "author": "ikorihn <r57ty7@gmail.com>",
   "license": "MIT",
   "scripts": {
     "build": "rollup -c",
@@ -36,6 +35,7 @@
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/svelte": "^3.0.3",
     "@tsconfig/svelte": "^3.0.0",
+    "@types/chrome": "^0.0.174",
     "babel-jest": "^27.4.5",
     "jest": "^27.4.5",
     "rollup": "^2.63.0",
