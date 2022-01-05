@@ -1,7 +1,7 @@
 <script>
-  import Counter from "./Counter.svelte";
+  import Url from "./Url.svelte";
 </script>
 
 <main class="p-2">
-  <Counter />
+  <Url />
 </main>
