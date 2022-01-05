@@ -1,9 +1,4 @@
 {
-  "background": {
-    "scripts": [
-      "background/index.ts"
-    ]
-  },
   "content_scripts": [
     {
       "js": [
@@ -15,7 +10,11 @@
       ]
     }
   ],
-  "browser_action": {
+  "action": {
     "default_popup": "popup/index.html"
-  }
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "manifest_version": 3
 }
