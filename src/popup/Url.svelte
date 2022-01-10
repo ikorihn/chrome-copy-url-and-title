@@ -14,6 +14,14 @@
       }
     )
   }
+
+  async function copyUrlAndTitle() {
+    try {
+      await navigator.clipboard.writeText(`[${title}](${url})`)
+    } catch (err) {
+      console.error('Failed to copy: ', err)
+    }
+  }
 </script>
 
 <main>
@@ -25,4 +33,5 @@
     <h2 class="url__label text-xl font-bold">Url</h2>
     <div class="url__content">{url}</div>
   </section>
+  <button class="button w-full rounded bg-blue-400 text-white" on:click={copyUrlAndTitle}>Copy</button>
 </main>
